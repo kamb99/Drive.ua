@@ -1,0 +1,116 @@
+body{ background: #5c584e;}
+
+/* сторінка-контейнер(тіні) */
+div#page {
+	margin: 50px 233px 250px 233px;
+	box-shadow: 0 0 10px rgba(0,0,0,1);
+}
+/* верхня чорна полоска */
+#header {
+	height: 50px;
+	overflow: hidden;
+	background: #1b2124;
+}
+/* лого*/
+div.logo {
+	height: 50px;
+	width: 200px;
+	background: #E3CB42;
+}
+/* лого-текст*/
+.logo-text {
+	position: absolute;
+	margin-top: 5px;
+	margin-left: 29px;
+	margin-bottom: 0px;
+	font-size: 35px;
+	font-family:Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-stretch: ultra-condensed;
+	text-shadow:3px 2px 8px black;
+}
+/* лого-лінк-бокс*/
+a.box-link{
+	text-decoration: none;
+	color: inherit;
+  background-color: #E3CB42;
+  color: black;
+  display: block;
+  height: 50px;
+  line-height: 20px;
+  text-decoration: none;
+  width: 200px;
+  padding-top: 8px;
+}
+/* Just cars. Nothing else*/
+.cars-nothing-else {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  top: 10px;
+  left: 310px;
+  position: absolute;
+  margin-left: 290px;
+  margin-right: 260px;
+  margin-top: 0px;
+  right: 0;
+  z-index: 2;
+  padding: 0 10px;
+  font-size: 50px;
+  color: white;
+  text-shadow: 0 0 10px rgba(0,0,0,1);
+}
+/* БМВ сепія розмиття*/
+.background-image{
+  height: 200px;
+	overflow:hidden; 
+	background-image: url("BMWM3.jpg");
+    -webkit-filter: blur(8px) sepia(1);
+}
+/* навігація */
+div.navigation {
+	height: 25px;
+	overflow: hidden;
+	background: #1b2124;
+	box-shadow: 0 0 10px rgba(0,0,0,1);
+  margin-left: 0px;
+}
+ul{
+	list-style-type: none;
+    margin: 2px 0px 0px 220px;  
+    padding: 2px;
+    width: 500px;
+}
+li {
+    display: inline;
+    width: 500px;
+    margin-left: 20px;
+    height: 5px;
+}
+ul>li>a:link, ul>li>a:visited {
+    display: block;
+    font-weight: bold;
+    transition: color 1s ease;
+    color: #8d9091;
+    background-color: #1b2124;
+    width: 1000px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px; 
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline;
+}
+ul>li>a:hover, ul>li>a:active {
+    color: #FFFFFF;
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px; 
+
+}
+/* контент сайту */
+#content {
+	height: 1000px;
+	overflow: auto;
+	background: #e8e8e8;
+}
