@@ -45,7 +45,7 @@ a.box-link{
 /* Just cars. Nothing else*/
 .cars-nothing-else {
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  top: 10px;
+  top: 40px;
   left: 310px;
   position: absolute;
   margin-left: 290px;
@@ -54,7 +54,7 @@ a.box-link{
   right: 0;
   z-index: 2;
   padding: 0 10px;
-  font-size: 50px;
+  font-size: 40px;
   color: white;
   text-shadow: 0 0 10px rgba(0,0,0,1);
 }
@@ -113,4 +113,10 @@ ul>li>a:hover, ul>li>a:active {
 	height: 1000px;
 	overflow: auto;
 	background: #e8e8e8;
+}
+.incontent{
+   width: 800px;
+   height:600px;
+   background: #FFFFFF;
+   margin:20px 0px 0px 35px ;;
 }
