@@ -1,5 +1,5 @@
-body{ background: #5c584e;}
-
+body{ background: #5c584e;
+}
 /* сторінка-контейнер(тіні) */
 div#page {
 	margin: 50px 233px 250px 233px;
@@ -54,7 +54,7 @@ a.box-link{
   right: 0;
   z-index: 2;
   padding: 0 10px;
-  font-size: 40px;
+  font-size: 50px;
   color: white;
   text-shadow: 0 0 10px rgba(0,0,0,1);
 }
@@ -66,57 +66,34 @@ a.box-link{
     -webkit-filter: blur(8px) sepia(1);
 }
 /* навігація */
-div.navigation {
-	height: 25px;
-	overflow: hidden;
-	background: #1b2124;
-	box-shadow: 0 0 10px rgba(0,0,0,1);
-  margin-left: 0px;
+body {
+  
+  font-family: Helvetica, sans-serif; font-size: 18px; line-height: 24px;
 }
-ul{
-	list-style-type: none;
-    margin: 2px 0px 0px 220px;  
-    padding: 2px;
-    width: 500px;
-}
-li {
-    display: inline;
-    width: 500px;
-    margin-left: 20px;
-    height: 5px;
-}
-ul>li>a:link, ul>li>a:visited {
-    display: block;
-    font-weight: bold;
-    transition: color 1s ease;
-    color: #8d9091;
-    background-color: #1b2124;
-    width: 1000px;
-    text-align: center;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-left: 10px; 
-    text-decoration: none;
-    text-transform: uppercase;
-    display: inline;
-}
-ul>li>a:hover, ul>li>a:active {
-    color: #FFFFFF;
-    display: inline;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-left: 10px; 
 
-}
+
+
 /* контент сайту */
 #content {
 	height: 1000px;
 	overflow: auto;
 	background: #e8e8e8;
 }
-.incontent{
-   width: 800px;
-   height:600px;
-   background: #FFFFFF;
-   margin:20px 0px 0px 35px ;;
+
+.incontent {
+  height: 500px;
+  width: 830px;
+  background-color: #FFFFFF;
+  margin:0 auto;
+  margin-top: 20px;
+
 }
+
+
+
+
+
+
+
+
+
